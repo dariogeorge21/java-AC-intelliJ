@@ -5,7 +5,6 @@ package com.dario;
 public class Main {
     public static void main(String[] args) {
         String name = "Dario";
-        int age = 18;
 //        datatypes
 //        byte - 1;
 //        short - 2;
@@ -14,6 +13,13 @@ public class Main {
 //        float - 4;
 //        double - 8;
 //        char - 2;
-//        boolean - 1
+//        boolean - 1;
+        byte age = 12;
+        short height = 883;
+        int num = 12;
+        long phoneNumber = 1001001001L;
+        float pi = 3.14F;
+        char letter = 'A';
+        boolean isAdult = true;
     }
 }
