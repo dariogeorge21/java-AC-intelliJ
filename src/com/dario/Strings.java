@@ -7,7 +7,6 @@ public class Strings {
         String name1 = "Dario";
         String name2 = "George";
         String fullName = name1 + " " + name2;
-        System.out.println(fullName.replace("ario", "ariyo"));
-        System.out.println(fullName);
+        System.out.println(fullName.substring(0, 4));
     }
 }
