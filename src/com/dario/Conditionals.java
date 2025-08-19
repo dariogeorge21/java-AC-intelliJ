@@ -12,5 +12,14 @@ public class Conditionals {
         else
             System.out.println("Not eligible to vote");
 
+        sc.nextLine();
+        int countWords = 0;
+        System.out.printf("Enter words: ");
+        String name = sc.nextLine();
+        for (int i = 0; i < name.length(); i++) {
+            if (name.charAt(i) == ' ')
+                countWords++;
+        }
+        System.out.println("The number of words: "+(countWords+1));
     }
 }
