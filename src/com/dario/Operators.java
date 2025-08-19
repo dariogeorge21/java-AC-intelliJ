@@ -14,5 +14,12 @@ public class Operators {
         System.out.println("Product: "+ mul);
         System.out.println("Division: "+ div);
         System.out.println("Modulo: "+ mod);
+
+        //Unary operators
+        int num = 1;
+        System.out.println("num++ : "+num++);
+        System.out.println("num : "+ num);
+        System.out.println("++num: "+ ++num);
+        System.out.println("num : "+ num);
     }
 }
