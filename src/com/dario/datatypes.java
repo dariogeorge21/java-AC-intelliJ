@@ -6,7 +6,6 @@ public class datatypes {
     public static void main(String[] args) {
 //        Non primitive
         String name = "Dario";
-        System.out.println(name.length());
 //        datatypes
 //        byte - 1;
 //        short - 2;
