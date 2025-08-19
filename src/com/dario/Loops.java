@@ -20,5 +20,20 @@ public class Loops {
             System.out.println(j);
             j--;
         } while (j>0);
+
+        //break and continue
+
+        int k=0;
+        while (true){
+            if(k==3){
+                k++;
+                continue;
+            }
+            if (k>9){
+                break;
+            }
+            System.out.println("Value of k: "+k);
+            k++;
+        }
     }
 }
