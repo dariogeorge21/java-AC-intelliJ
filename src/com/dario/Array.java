@@ -18,5 +18,13 @@ public class Array {
         for (int i = 0; i < marks.length; i++) {
             System.out.println(marks[i]);
         }
+
+//        Two Dimensional Arrays
+        int[][] mark2 = {{1,1},{2,2},{3,3},{4,4}};
+        for (int i = 0; i < mark2.length; i++) {
+            for (int j = 0; j < mark2[1].length; j++) {
+                System.out.println("Marks: "+mark2[i][j]);
+            }
+        }
     }
 }
