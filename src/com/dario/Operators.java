@@ -21,5 +21,18 @@ public class Operators {
         System.out.println("num : "+ num);
         System.out.println("++num: "+ ++num);
         System.out.println("num : "+ num);
-    }
+
+
+        //Logical
+        int n = -11;
+        if (n>0 && n%2==0)
+            System.out.println("POstive Even!!");
+        else if (n>0 && n%2!=0) {
+            System.out.println("POstive odd!!");
+        } if (n>0 || n%2!=0) {
+            System.out.println("Either positive or Even!!");
+        } else
+            System.out.println("Negative!!");
+    }   
+    
 }
