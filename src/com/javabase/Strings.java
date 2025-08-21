@@ -1,6 +1,4 @@
-package com.dario;
-
-import java.sql.SQLOutput;
+package com.javabase;
 
 public class Strings {
     public static void main(String[] args) {

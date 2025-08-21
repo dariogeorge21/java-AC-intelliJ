@@ -1,4 +1,4 @@
-package com.dario;
+package com.javabase;
 
 public class Casting {
     public static void main(String[] args) {

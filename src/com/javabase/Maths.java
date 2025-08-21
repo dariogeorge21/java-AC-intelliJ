@@ -1,4 +1,4 @@
-package com.dario;
+package com.javabase;
 
 public class Maths {
     public static void main(String[] args) {

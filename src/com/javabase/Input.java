@@ -1,4 +1,4 @@
-package com.dario;
+package com.javabase;
 
 import java.util.Scanner;
 

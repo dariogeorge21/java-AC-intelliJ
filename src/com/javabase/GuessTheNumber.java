@@ -1,6 +1,5 @@
-package com.dario;
+package com.javabase;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class GuessTheNumber {
